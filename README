@@ -1,0 +1,21 @@
+A react web app with jspm build step (inside of the gulp build step)
+
+
+To run the react app locally
+
+    npm install
+    npm install jspm
+
+    jspm install react=github:reactjs/react-bower -o "{main: 'react', format: 'global'}" -f
+    jspm install react-nested-router=github:toranb/toranb-react-nested-router
+    jspm install ajax-mixin=github:toranb/toranb-react-amd-rsvp-ajax-mixin
+
+    (the below are optional depending on what you want to show)
+    jspm install rsvp=github:tildeio/rsvp.js@3.0.6
+    jspm install rsvp=github:tildeio/rsvp.js@3.0.7
+
+    gulp
+
+    python -m SimpleHTTPServer 3000
+
+    visit http://localhost:3000 to see the running app
