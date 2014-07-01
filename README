@@ -42,3 +42,12 @@ examples on what you can do w/ this app
 
     see if only the dashboard on demand loads 3.0.7 and once that is done...
     see if it will load 3.0.7 again when inbox is rendered (it shouldn't)
+
+**note about the 3.0.7 install (by the ajax-mixin)
+
+    A bug in jspm is making it lookup rsvp.js.js instead of rsvp.js
+
+    To fix this cd into cd jspm_packages/github/tildeio/rsvp.js@3.0.7
+    mv rsvp.js rsvp.js.js
+
+    It's a hack clearly but lets you demo the ideas today
