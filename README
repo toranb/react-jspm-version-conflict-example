@@ -11,8 +11,8 @@ To run the react app locally
     jspm install ajax-mixin=github:toranb/toranb-react-amd-rsvp-ajax-mixin
 
     (the below are optional depending on what you want to show)
-    jspm install rsvp=github:tildeio/rsvp.js@3.0.6
-    jspm install rsvp=github:tildeio/rsvp.js@3.0.7
+    jspm install rsvp=github:tildeio/rsvp.js@3.0.6 -o "{main: 'lib/rsvp.js'}"
+    jspm install rsvp=github:tildeio/rsvp.js@3.0.7 -o "{main: 'lib/rsvp.js'}"
 
     gulp
 
