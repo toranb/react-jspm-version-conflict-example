@@ -9,10 +9,8 @@ To run the react app locally
     jspm install react=github:reactjs/react-bower -o "{main: 'react', format: 'global'}" -f
     jspm install react-nested-router=github:toranb/toranb-react-nested-router
     jspm install ajax-mixin=github:toranb/toranb-react-cjs-rsvp-ajax-mixin
-
-    (the below are optional depending on what you want to show)
+    jspm install promise-mixin-two=github:toranb/toranb-react-promise-mixin-number-two
     jspm install rsvp=github:tildeio/rsvp.js@3.0.6 -o "{main: 'lib/rsvp.js'}"
-    jspm install rsvp=github:tildeio/rsvp.js@3.0.7 -o "{main: 'lib/rsvp.js'}"
 
     gulp
 
@@ -20,28 +18,6 @@ To run the react app locally
 
     visit http://localhost:3000 to see the running app
 
-
-examples on what you can do w/ this app
-
-    from the app.jsx pull in the helpers import
-    add it as a mixin (above the render method)
-
-    mixins: [AjaxReactComponent]
-
-    next at the top of the render method invoke this.fire();
-
-    This will pull in the RSVP dependency you added above
-
-    If you used 3.0.7 and later click dashboard and inbox it
-    shouldn't load 3.0.7 again
-
-    If you instead did 3.0.6 you will notice that jspm will pull
-    in RSVP 3.0.7 "on demand" when it's needed in inbox
-
-    play around with other variations (ie- loading 3.0.7 on demand in dashboard)
-
-    see if only the dashboard on demand loads 3.0.7 and once that is done...
-    see if it will load 3.0.7 again when inbox is rendered (it shouldn't)
 
 **note about the 3.0.7 install (by the ajax-mixin)
 
