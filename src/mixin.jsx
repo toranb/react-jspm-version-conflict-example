@@ -1,3 +1,4 @@
+//this import will pull in the AMD module (on demand)
 import PromiseMixin from 'promise-mixin-two';
 
 var AnotherPromiseMixin = {

@@ -1,5 +1,8 @@
 import React from 'react';
 import ReactRouter from 'react-nested-router';
+
+//this helper module will be the first place
+//we require and use RSVP 3.0.6
 import AjaxReactComponent from './helper';
 
 var Link = ReactRouter.Link;
