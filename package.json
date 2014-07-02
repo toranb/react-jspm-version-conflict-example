@@ -4,6 +4,7 @@
     "gulp-react": "*",
     "gulp-concat": "*",
     "gulp-shell": "*",
-    "jshint": "*"
+    "jshint": "*",
+    "jspm": "0.6.7"
   }
 }
