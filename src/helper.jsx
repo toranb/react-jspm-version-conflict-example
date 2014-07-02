@@ -22,7 +22,7 @@ var AjaxReactComponent = {
           return promise;
         };
 
-        getJSON("/api/wat/").then(function(json) {
+        getJSON("/api/incoming").then(function(json) {
             console.log(json);
         });
     }
