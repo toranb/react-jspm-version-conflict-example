@@ -22,10 +22,10 @@ A jspm example that shows how multiple versions of a dependency live together
 
     A bug in jspm is making it lookup rsvp.js.js instead of rsvp.js
 
-    To fix 3.0.6 cd into cd jspm_packages/github/tildeio/rsvp.js@3.0.6
+    To fix 3.0.6 cd jspm_packages/github/tildeio/rsvp.js@3.0.6
     mv rsvp.js rsvp.js.js
 
-    To fix 3.0.7 cd into cd jspm_packages/github/tildeio/rsvp.js@3.0.7
+    To fix 3.0.7 cd jspm_packages/github/tildeio/rsvp.js@3.0.7
     mv rsvp.js rsvp.js.js
 
     It's a hack clearly but lets you demo the ideas today
